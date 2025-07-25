@@ -64,3 +64,9 @@ dora destroy
 - When finished click on Stop Conversation
 
 ## Video tutorial
+
+
+https://github.com/user-attachments/assets/594ae453-4983-410d-8ba7-a11778322cfa
+
+
+
