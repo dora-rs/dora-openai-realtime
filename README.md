@@ -2,7 +2,7 @@
 
 ## Front End
 
-To build the frontend
+### To build Client
 
 ```bash
 git clone https://github.com/haixuantao/makepad-realtime
@@ -16,7 +16,9 @@ cargo build --release
 cargo run -r
 ```
 
-## Build dora environment
+## Server
+
+## Build server
 
 ```bash
 git clone https://github.com/haixuanTao/fastwebsockets
@@ -26,7 +28,7 @@ dora build moyoyo-funasr-template-metal.yml --uv ## very long process
 
 ```
 
-## Run the process
+## Run server
 
 ```bash
 cd fastwebsockets/examples
@@ -35,7 +37,13 @@ dora up
 cargo run --release --example echo_server --features upgrade
 ```
 
-## WHen both Client and Serve
+## On finish
+
+```bash
+dora destroy
+```
+
+## Connect Client and Server
 
 - Click on Connect to Finetuned Whisper
 - When the session is ready
@@ -43,7 +51,7 @@ cargo run --release --example echo_server --features upgrade
 - Start talking
 - When finished click on Stop Conversation
 
-## For chinese version
+## For chinese realtime server version
 
 - Click on Connect to FunASR ( not working superwell for now )
 - When the session is ready
