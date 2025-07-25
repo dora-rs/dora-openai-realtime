@@ -13,6 +13,7 @@ cargo build --release
 ### Run Client
 
 ```bash
+cd makepad-realtime
 cargo run -r
 ```
 
@@ -35,6 +36,7 @@ cd fastwebsockets/examples
 source .venv/bin/activate
 dora up
 cargo run --release --example echo_server --features upgrade
+
 ```
 
 ## On finish
@@ -60,3 +62,5 @@ dora destroy
 - Click on Start Conversation
 - Start talking
 - When finished click on Stop Conversation
+
+## Video tutorial
