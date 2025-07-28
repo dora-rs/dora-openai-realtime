@@ -19,6 +19,19 @@ cargo run -r
 
 ## Server
 
+## {Recommended} Install git-lfs
+
+```bash
+brew install git-lfs # MacOS
+```
+
+## Clone Moxin Voice Chat
+
+```bash
+git lfs install
+git clone https://github.com/moxin-org/moxin-voice-chat.git
+```
+
 ### Build server
 
 ```bash
