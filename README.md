@@ -64,7 +64,7 @@ dora destroy
 
 ## Video tutorial
 
-https://github.com/user-attachments/assets/594ae453-4983-410d-8ba7-a11778322cfa
+https://github.com/user-attachments/assets/37d879c9-5555-4dd0-9e8b-745369a8f036
 
 ### WIP: Moyoyo
 
