@@ -19,27 +19,13 @@ cargo run -r
 
 ## Server
 
-## {Recommended} Install git-lfs
-
-```bash
-brew install git-lfs # MacOS
-```
-
-## Clone Moxin Voice Chat
-
-```bash
-git lfs install
-git clone https://github.com/moxin-org/moxin-voice-chat.git
-```
-
 ### Build server
 
 ```bash
 git clone https://github.com/haixuanTao/fastwebsockets
 cd fastwebsockets/examples
 uv venv --seed -p 3.11
-dora build moyoyo-funasr-template-metal.yml --uv ## very long process
-
+dora build whisper-template-metal.yml --uv ## very long process
 ```
 
 ### Run server
@@ -78,8 +64,19 @@ dora destroy
 
 ## Video tutorial
 
-
 https://github.com/user-attachments/assets/594ae453-4983-410d-8ba7-a11778322cfa
 
+### WIP: Moyoyo
 
+## {Recommended} Install git-lfs
 
+```bash
+brew install git-lfs # MacOS
+```
+
+## Clone Moxin Voice Chat
+
+```bash
+git lfs install
+git clone https://github.com/moxin-org/moxin-voice-chat.git
+```
